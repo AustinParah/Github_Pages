@@ -1,0 +1,223 @@
+<!-- DOCTYPE is so that the browser can parse what standard you are using -->
+<!DOCTYPE html>
+
+<!-- this is an attribute, so we can do more information-->
+<html lang="en, es">
+
+<head>
+  <title> web-tech w3 tuesday</title>
+  <!-- "void element" or self closing tag, caused by the /> -->
+  <meta charset="utf-8" />
+  <!-- while meta tags have codified attributes like charset, we can also define custom ones-->
+  <meta name="description" content="Keyword rich SEO explanation, kina elevator pitchy but needed" />
+
+  <!-- custom ones allways have the fomat " <meta name="" content=""> " -->
+  <meta name="author" content="AustinParah" />
+  <!-- sometimes depending on whether you have a semi-tech litterate person you might need to include the keywords metatag-->
+
+  <!-- you also have "link tags" which can link to other resources -->
+  <link href="./styles.css" rel="stylesheet" />
+
+  <!-- htmlhead.dev -->
+
+  <!-- need to do this as well-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+<body>
+
+  <h1>Prototype HTML Document Example</h1>
+
+  <h2 id="#anchor-ex">Properly Marking up an HTML Document </h2>
+
+  <p>This is a paragraph. Often times designers will use "Dummy Text" as a placeholder in a document. An example of that
+    text follows...Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+
+  <p> Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. </p>
+
+  <address>
+    Austin Parah <br />
+    144 Baxter County Road 57 <br />
+    Mountain Home, Ar, 72653
+  </address>
+
+
+  <form action="processing-script.php" method="post">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label>Firstname:</label>
+      <input type="text" />
+      <label>Firstname:
+        <input type="text" /></label>
+      <label for="fName">Firstname:</label>
+
+      <input type="button" />
+      <input type="color" />
+      <input type="password" />
+      <input type="email" />
+      <input type="datetime-local" />
+      <input type="tel" placeholder="(555) 555-5555" />
+
+      <input type="text" id="fName" name="fName" placeholder="firstName" />
+    </fieldset>
+  </form>
+
+  <form action="https://localhost:8000/ualr" method="post">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label for="secondFName">Firstname</label>
+      <input type=text id="secondFName" value="John"></input>
+      <label for="address"></label>
+      <textarea id="address"></textarea>
+      <label for="favoriteColor">favorite color</label>
+      <select id="favoriteColor" name="color">
+        <option value="if you dont want the Red you can set this attribute to do the return">Red</option>
+        <option>Green</option>
+        <option>Blue</option>
+        <option selected="selected">----</option>
+      </select>
+      <input type="button" value="whats on the button lol" />
+    </fieldset>
+  </form>
+
+
+
+
+  <p> Fusce tellus <a href="#desc1">arcu</a>, <a href="#desc2">blandit quis</a>, <a href="#desc3">posuere in</a>, porta
+    vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget
+    ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et
+    magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent
+    velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet
+    sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</p>
+
+  <s1>This is a Subsection of the Primary Content (Subsection I)</s1>
+
+  <p>This is a paragraph. Often times designers will use "Dummy Text" as a placeholder in a document. An example of that
+    text follows...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In
+    volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta
+    vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non
+    eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris
+    volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in,
+    ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt
+    turpis. </p>
+
+  <ol> This is a list of instructions.
+
+    <li>Instruction</li>
+
+    <li>Instruction</li>
+
+    <li>Instruction</li>
+  </ol>
+
+  <ul>This is a list of items to purchase at the grocery store.
+
+    <li>Ramen</li>
+
+    <li>Cheetos</li>
+
+    <li> Veggies </li>
+    <ul>
+      <li>Cabbage</li>
+      <li>Brocoli</li>
+      <ul> legumes
+        <li>B E A N S</li>
+      </ul </ul>
+
+      <li>Jolt </li>
+
+      <li>Bread</li>
+
+    </ul>
+
+    <table border="1">
+      <tr>
+        <th scope="col">num</th>
+        <th scope="col">item</th>
+        <th scope="col">quantity</th>
+        <th scope="col">cost</th>
+        <th scope="col">date</th>
+      </tr>
+      <tr>
+        <th scope="row">1</th>
+        <td>Lightly Weathered Cut Copper Stairs</td>
+        <td>1258</td>
+        <td>12 diamonds</td>
+        <td>10/15/2012</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Lightly Weathered Cut Copper Stairs</td>
+        <td>1258</td>
+        <td>12 diamonds</td>
+        <td>10/15/2012</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Lightly Weathered Cut Copper Stairs</td>
+        <td>1258</td>
+        <td>12 diamonds</td>
+        <td>10/15/2012</td>
+      </tr>
+    </table This is an Example of how we should mark up a term and its description(s) <dl>
+    <dt id="desc1">Term</dt>
+    <dd>Description 1</dd>
+    <dd>Description 2</dd>
+
+    <dt id="desc2">Term</dt>
+    <dd>Description 1</dd>
+
+    <dt id="desc3">Term</dt>
+    <dd>Description 1</dd>
+    <dd>Description 2</dd>
+    <dd>Description 3</dd>
+
+    </dl>
+
+    <img src="https://thomaswallace.net/wp-content/uploads/2018/02/ualr.png" alt="need alt for SEO" />
+
+    <hr /> <!-- dont use this, its presentation in the html, which is bad semantically-->
+
+    <br /> <!-- again, best practice is to not use, presentation in the html-->
+
+    <h4>This is a Subsection of Subsection I</h4>
+
+    <blockquote> is a Quote. Content precedes design. Design in the absence of content is not design, it's decoration.
+      From
+      Designing with Web Standards <cite>by Jeffery Zeldman.</cite></blockquote>
+
+    <h3>This is a Subsection of the Primary Content</h3>
+
+    <p>This is a paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa.
+      In
+      volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta
+      vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus
+      non
+      eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+    <p> Mauris
+      volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in,
+      ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna
+      tincidunt
+      turpis. Proin adipiscing ultrices dui. Duis porttitor, libero ut eleifend pellentesque, risus turpis fermentum
+      est,
+      vel nonummy lorem est id nisl. Nulla facilisi. In sagittis tortor. Vestibulum dictum leo vitae augue. Morbi in
+      odio sed nulla luctus sodales.</p>
+
+    <ul>
+      This is the Navigation for the Page
+      <li>Home</li>
+      <li><a href="./thursday.html" title="toolTip">thursday</a></li>
+      <li><a href="https://ualr.edu" target="_blank">About</a></li>
+      <li><a href="#top">Services</a></li>
+      <li><a href="mailto:parahaustin@gmail.com">Contact</a></li>
+    </ul>
+
+    <footer>
+      &copy; 2025 Austin Parah | <a href="#top">back to top</a>
+    </footer>
+
+</body>
+
+</html>
