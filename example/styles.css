@@ -1,0 +1,11 @@
+h2 {
+color: orange;
+}
+
+img {
+margin: 25px;
+}
+
+label, input, textarea, select {
+display: block;
+}

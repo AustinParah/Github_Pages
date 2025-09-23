@@ -1,0 +1,36 @@
+/* css-demo */
+
+/* ---------------- Box Sizing -----------*/
+
+html{
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+  box-sizing: inherit;
+}
+
+/*----------------- Global Stuff --------------*/
+
+body {
+  background-color: #96E4B2;
+}
+
+section header{
+  background-color: #809186;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
